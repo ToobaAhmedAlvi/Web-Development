@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap');
+/* heading */
+#header{
+    margin:0% 2% 0% 2%;
+   
+
+}
+.navbar,a{
+    display:inline-block;
+    text-decoration: none;
+    padding:0px 10px 0px 10px;
+    background-color: red;
+    color:white;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 2px;
+    }
+    .navbar{
+        position: fixed;
+        background-color: white;
+        margin:1px 1px 1px 1px;
+    }
+    
+.new:a:hover{ 
+    border-color: orange 2px;
+    border-radius: 5px;
+    font-weight: bold;
+   
+}
+.new:a{
+    padding:2px 2px;
+    font-size: 10px;;
+    display: block;
+    float:right;
+    margin-left: 0px;
+    width: 1%;
+    border-collapse: collapse;
+}
+
+#image{
+ display:block;
+ float: left;
+ width:25%;
+ margin-right:2%;
+ 
+}
+marquee{
+    background-color: rgb(245, 144, 13) ;
+    color : #1B4F72;
+    font-size:20px;
+    padding: 5px 40px;
+    position: relative;
+}
+
+marquee > marquee::before {
+    font-size: 30px;
+    position: absolute;
+    top:1%;
+    left: 5px;
+    padding:10px 0px 10px 0px;
+    margin: auto;
+}
+
+marquee > marquee::after {
+    font-size: 30px;
+    position: absolute;
+    top:1%;
+    right: 5px;
+}
+marquee{
+    color : white;
+}
+
+marquee > marquee > a{
+    color : #21618C ;
+}
+
+@media screen and (max-width: 480px){
+    .marquee{
+        font-size: 14px;    
+    }
+}
+

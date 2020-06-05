@@ -1,0 +1,314 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap');
+  marquee{
+    background-color: red ;
+    color : #1B4F72;
+    font-size:20px;
+    padding: 5px 40px;
+    position: relative;
+}
+
+marquee > marquee::before {
+    font-size: 30px;
+    position: absolute;
+    top:1%;
+    left: 5px;
+    padding:10px 0px 10px 0px;
+    margin: auto;
+}
+
+marquee > marquee::after {
+    font-size: 30px;
+    position: absolute;
+    top:1%;
+    right: 5px;
+}
+marquee{
+    color : white;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+  color:yellow;
+  font-family: 'Kaushan Script', cursive;
+    letter-spacing: 2px;
+
+}
+a.active:hover{
+  background-color: none;
+
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+div #myTopnav{
+  color:yellow ;
+}
+.topnav a:hover,a.active {
+   color:yellow;
+}
+.topnav a:hover{
+  background-color: black;
+  
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+     }
+     marquee{
+       width:100%;
+     }
+      #image{
+        width:100%;
+        margin-left:13px;
+      }
+      .topnav{
+        margin-top: 250px;
+        width:100%;
+      }
+      div{
+        width:100%;
+      }
+}
+image{
+  height:300px;
+  width:100px;
+}
+#image{
+  width:38%;
+  float:left;
+}
+#mytopnav{
+  width:62%;
+  float:right;
+}
+
+i{
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  .topnav.responsive {position: relative; margin-top:250px;width:100%;
+  }
+  #vision img,#mission img ,p{
+     height:200px; 
+    width:100%;
+  }
+  .card{
+    display: block;
+    margin:2px 10px 10px 2px;
+    width:300em;
+  }
+  td{
+    display:block;
+  }
+  center{
+    padding: 1px 1px;
+    margin: 10px 12px 12px 10px;
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: small;
+     }
+     
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width:100%;   
+  }
+  #line{
+    display:none;
+  }
+}
+div .new{
+  border-radius: 0%;
+  font-size: 20px;
+  float:right;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;  
+  margin-top: 0px;
+  padding: 2px 2px;
+  border-collapse: collapse;
+  }
+.card{
+  display: inline;
+}
+.fa:hover {
+    opacity: 0.7;}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;}
+
+  .topnav a.active{
+  background-color:palevioletred;
+  color:yellow;
+ border: red 2px solid;
+cursor:auto;
+}
+.topnav a.visted{
+  color:red;
+}
+footer{
+  background-color: black;
+  color:white;
+  margin-top: 30px;
+}
+
+section 
+{ 
+color:black;
+  border-color: red;
+  border: 1px dotted brown;
+  margin-top:65px;
+  
+}
+
+  a{
+    font-size: large;
+    text-decoration:none;
+  }
+  .box{
+    margin:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+  }
+  h3{
+    text-align: center;
+      }
+     
+      .box{
+        display: inline;
+             
+      }
+     /*SERVICES*/
+     a{
+      text-decoration: none;
+      display:inline;
+    
+    }
+    tr{
+      color:white;
+      table-layout: fixed;
+    }
+    td{
+      word-wrap: none;
+      margin:5px 100px 5px 100px;
+      color:white;  
+      background-color: black;
+      height:300px;
+    }
+  td a{
+    text-decoration:none;
+    color: white;
+  
+  }
+  td:hover{
+    background-color: yellow;
+  }
+  td a:hover{
+    color:white;
+    background-color: red;
+    text-decoration: none;
+  }
+  td,a{
+    text-decoration: blanchedalmond;
+  }
+#tips{
+  color:white;
+  background-color: black;
+  border:1px dotted red;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 40%;
+  max-width: 300px;
+  color:white;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+div .overlay{
+  color:wheat;
+}
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: red;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay{
+  opacity: 1;
+  color: white;
+}
+.tag{
+  display: inline;
+}

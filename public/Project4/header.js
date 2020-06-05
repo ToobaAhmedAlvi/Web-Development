@@ -1,0 +1,31 @@
+document
+ <div id="header">
+   <marquee behavior="scroll" direction="left">
+    Welcome to Future HUB Site.Get your CVs/Manuscripts Designed In Reasonable Amount</marquee>
+     
+<div id="image">
+    <hr id="line"><hr id="line"><hr id="line"><img src="FutureHub.jpg"style="margin:0px 0px" style="vertical-align:left"></div>
+
+<div class="topnav" id="myTopnav">
+  <a href="javascript:#home" class="active">Home</a>
+  <a href="hub.html">About</a>
+  <a href="#contact">Services</a>
+  <a href="#about">Blog</a>
+  <a href="#about"> &#9993 Contact</a>
+  <hr id="line"><hr id="line"><hr id="line">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <hr id="line"><hr id="line"><hr id="line">
+  <div class="new" >
+    <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-whatsapp"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>

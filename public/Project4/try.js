@@ -1,0 +1,1 @@
+<a href="javascript: document.write('Hello World! This is being written from the script.js file!');">Click Me</a>
